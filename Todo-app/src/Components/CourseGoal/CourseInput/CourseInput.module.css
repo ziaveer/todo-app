@@ -1,0 +1,42 @@
+
+.form-control{
+    margin: 0.5rem 0;
+}
+.form-control label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+.form-control input:focus{
+    outline: none;
+    border-color: rgb(110, 83, 136);
+    background: rgb(232, 222, 240);
+}
+.form-control.invalid{
+    border-color:rgb(218, 38, 68);
+    /* background: rgb(232, 222, 240); */
+
+}
+.form-control.invalid input{
+    border-color: rgb(158, 73, 73);
+    background: rgb(232, 222, 240);
+
+}
+.form-control.invalid label{
+    color: aqua;
+
+}
+@media (min-width: 768px){
+    .button{
+        width: auto;
+    }
+
+}

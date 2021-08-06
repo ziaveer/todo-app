@@ -1,0 +1,23 @@
+.goal-item{
+    margin: 1rem 0rem;
+    background: rgb(110, 83, 136);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    color: whitesmoke;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: 20rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.head{
+    display: flex;
+    align-items: center;
+    
+}
+.head span{
+    border: 1px solid rgb(33, 29, 37);
+    padding: 1rem;
+    background-color: rgb(110, 83, 136);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+}
